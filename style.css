@@ -5,4 +5,39 @@ body {
   body h1 {
     color: rgb(10, 63, 47);
   }
+
+  .tabs{
+      border:1px solid#ffffff;
+      display: flex;
+  }
   
+.tabs_sidebar{
+    width:125px;
+    flex-shrink: 0;
+    background:rgb(255, 255, 255)
+}
+
+.tabs_button{
+    display: block;
+    padding: 10px;
+    background:#55cea6;
+    border: none;
+    width: 100%;
+    outline:none;
+    cursor:pointer
+}
+
+.tabs_button:active{
+    background:rgb(245, 250, 249)
+}
+
+.tabs_content{
+    padding: 15px;
+    font-size: 0.8rem;
+    display: none;
+}
+
+.tabs_content--active{
+    display:block;
+}
+

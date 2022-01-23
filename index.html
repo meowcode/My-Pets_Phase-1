@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="./style.css">
-    <title>Yuyu's Pets</title>
 </head>
 <body>
-    <header>
-        <h1>Yuyu's Pets</h1>
-    </header>
-    <nav class = "nav">
-        <a href = "/" class="nav_link ">Moe</a>
-        <a href = "/" class="nav_link ">Bloo</a>
-    </nav> 
+    <h1>My Pets</h1>
+    <div class="tabs">
+        <div class="tabs_sidebar">
+            <button class="tabs_button" data-for-tab="Moe">Moe</button>
+            <button class="tabs_button" data-for-tab="Bloo">Bloo</button>
+        </div>
+        <div class="tabs_content" data-tab="Moe">
+            <h2>Moe</h2>
+            <p> 
+                Moe is 9 years old.
+            </p>
+            </div>
+        <div class="tabs_content" data-tab="Bloo">
+            <h2>Bloo</h2>
+            <p>
+                Bloo is 4 months old.
+            </p>
+        </div>
+    </div>
+    <script src="index.js" charset="uft-8"></script>
 </body>
 </html>
