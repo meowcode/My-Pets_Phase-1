@@ -1,9 +1,5 @@
-body {
+.body{
     background-color: rgb(255, 255, 255);
-  }
-  
-  body h1 {
-    color: rgb(10, 63, 47);
   }
 
   .tabs{
@@ -33,7 +29,7 @@ body {
 
 .tabs_content{
     padding: 15px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: none;
 }
 

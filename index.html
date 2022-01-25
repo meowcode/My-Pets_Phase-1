@@ -6,25 +6,56 @@
     <link rel = "stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>My Pets</h1>
     <div class="tabs">
         <div class="tabs_sidebar">
+            <button class="tabs_button" data-for-tab="Intro">Introduction</button>
             <button class="tabs_button" data-for-tab="Moe">Moe</button>
             <button class="tabs_button" data-for-tab="Bloo">Bloo</button>
         </div>
+        <div class="tabs_content" data-tab="Intro">
+            <h1>All About My Pets</h1>
+            <p> 
+                Moe is a cat. Bloo is a dog.
+            </p>
+            <footer>
+                <ul>
+                    <li class="like">
+                        Like
+                        <span class="like-glyph">♡</span>
+                    </li>
+                </ul>
+            </footer>
+            </div>
         <div class="tabs_content" data-tab="Moe">
             <h2>Moe</h2>
+            <img src="images/IMG_8072 copy.jpg" alt="Beautiful Cat" width = "400" height="500">
             <p> 
                 Moe is 9 years old.
             </p>
+                <ul>
+                    <li class="like">
+                        Like
+                        <span class="like-glyph">♡</span>
+                    </li>
+                </ul>
+                <div class="cat-facts">
+                </div>
+                <button id="cat-button">Meow</button>
             </div>
         <div class="tabs_content" data-tab="Bloo">
             <h2>Bloo</h2>
+            <img src="images/IMG_9160.jpg" alt="Cute lab puppy" width = "400" height="500">
             <p>
                 Bloo is 4 months old.
             </p>
+                <ul>
+                    <li class="like">
+                        Like
+                        <span class="like-glyph">♡</span>
+                    </li>
+                </ul>
         </div>
     </div>
-    <script src="index.js" charset="uft-8"></script>
+    <script src="index.js" charset="module"></script>
 </body>
 </html>
